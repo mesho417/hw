@@ -1,0 +1,33 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>QuakeChampionsPORTUGAL</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>QuakeChampionsPORTUGAL</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="About.html">About.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Contact.html">Contact.html</ProjectItem>
+      <Folder Name="img" TargetFolderName="img">
+        <ProjectItem ReplaceParameters="false" TargetFileName="718707.jpg">718707.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="quake-champions-soldiers.jpg">quake-champions-soldiers.jpg</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="JavaScript.js">JavaScript.js</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StyleSheet.css">StyleSheet.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StyleSheet2.css">StyleSheet2.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StyleSheet3.css">StyleSheet3.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Team.html">Team.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

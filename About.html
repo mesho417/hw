@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet3.css">
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Team.html">Team</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li style="float:right"><a class="active" href="About.html">About</a></li>
+
+
+
+    </ul>
+
+    <body onload="myFunction()" style="margin:0;">
+
+        <div id="loader"></div>
+
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+            <h2>BFH is a leading eSports organization and one of the Portuguese first clan brands in competitive video gaming of Quake Champions. Founded in 2017‚ Bunnies from Hell, has grown from a passionate group of friends into a successful eSports clan.Starting back from Quake back to 1997 all players have their important roles and all are important to us.We wish all our players a big good luck, and see you in the game !</h2>
+
+        </div>
+
+        <script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 500);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+        </script>
+
+
+
+    </body>
+</html>

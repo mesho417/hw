@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Team.html">Team</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li style="float:right"><a class="active" href="about.html">About</a></li>
+
+
+    </ul>
+
+    <body onload="myFunction()" style="margin:0;">
+
+        <div id="loader"></div>
+
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+            <h2>Name : Nuno ' snipe ' Faísca</h2>
+            <p>Position: aimer / freestyler <br /> Map: camprounds <br />Age: 36 years <br />Gun: lightning gun</p>
+        </div>
+
+        <script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 500);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+        </script>
+
+
+
+    </body>
+</html>
